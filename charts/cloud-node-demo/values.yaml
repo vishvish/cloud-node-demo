@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 916666430535.dkr.ecr.eu-west-2.amazonaws.com/vishvish/cloud-node-demo
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: cloud-node-demo
